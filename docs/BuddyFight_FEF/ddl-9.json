@@ -1,0 +1,927 @@
+{
+    "major": 3,
+    "minor": 6,
+    "micro": 0,
+    "build": 1001,
+    "rootNamespace": {
+        "elements": [
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "OnlineCore"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "OnlineCore"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "unitName": {
+                        "value": "OnlineCore"
+                    },
+                    "unitDirectory": {
+                        "value": "OnlineCore/src/DDLTypes"
+                    }
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "concrete"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "concrete"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "categoryMask": 1,
+                    "allowedTargetMask": 5
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "loopback"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "loopback"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "categoryMask": 1,
+                    "allowedTargetMask": 1
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "auto_type_inheritable"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "auto_type_inheritable"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "categoryMask": 1,
+                    "allowedTargetMask": 5
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "auto_type"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "auto_type"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "categoryMask": 1,
+                    "allowedTargetMask": 5
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "custom_type"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "custom_type"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "categoryMask": 1,
+                    "allowedTargetMask": 5
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "exportable"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "exportable"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "categoryMask": 1,
+                    "allowedTargetMask": 4
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "globaldo"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "globaldo"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "OnlineCore"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "categoryMask": 2,
+                    "allowedTargetMask": 2
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "int64"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "int64"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "uint64"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "uint64"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "int32"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "int32"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "uint32"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "uint32"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "int16"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "int16"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "uint16"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "uint16"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "int8"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "int8"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "byte"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "byte"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "bool"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "bool"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "float"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "float"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "double"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "double"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "real"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "real"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "char"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "char"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "char16"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "char16"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "char8"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "char8"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "string"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "string"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "buffer"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "buffer"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "buffertail"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "buffertail"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "cstr"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "cstr"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "datetime"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "datetime"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qresult"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qresult"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "variant"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "variant"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qvector"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qvector"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "templateArgumentsNumber": 1
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qlist"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qlist"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "templateArgumentsNumber": 1
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qqueue"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qqueue"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "templateArgumentsNumber": 1
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qBuffer"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qBuffer"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "stationurl"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "stationurl"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

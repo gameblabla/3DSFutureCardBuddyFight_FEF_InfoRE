@@ -1,0 +1,277 @@
+{
+    "major": 3,
+    "minor": 6,
+    "micro": 0,
+    "build": 1001,
+    "rootNamespace": {
+        "elements": [
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "STLExt"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "STLExt"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "STLExt"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "unitName": {
+                        "value": "STLExt"
+                    },
+                    "unitDirectory": {
+                        "value": ""
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_bitset8"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_bitset8"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_bitset16"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_bitset16"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_bitset32"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_bitset32"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_char16string"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_char16string"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_char8string"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_char8string"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_string"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_string"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_vector"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_vector"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "templateArgumentsNumber": 1
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_list"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_list"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "templateArgumentsNumber": 1
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "std_map"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "std_map"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": "STLExt"
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "templateArgumentsNumber": 2
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,653 @@
+{
+    "major": 3,
+    "minor": 6,
+    "micro": 0,
+    "build": 1001,
+    "rootNamespace": {
+        "elements": [
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "SessionClockExt"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "SessionClockExt"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "SessionClockExt"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "unitName": {
+                        "value": "SessionClockExt"
+                    },
+                    "unitDirectory": {
+                        "value": ""
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qlist<stationurl>"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qlist<stationurl>"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "baseTypeName": {
+                        "value": "qlist"
+                    },
+                    "templateArgumentsLength": 1,
+                    "templateArguments": [
+                        {
+                            "value": "stationurl"
+                        }
+                    ]
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qvector<uint32>"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qvector<uint32>"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "baseTypeName": {
+                        "value": "qvector"
+                    },
+                    "templateArgumentsLength": 1,
+                    "templateArguments": [
+                        {
+                            "value": "uint32"
+                        }
+                    ]
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "SessionClock"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "SessionClock"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "SessionClockExt"
+                        },
+                        "properties": {
+                            "elements": [
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "bootstrapdo"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "bootstrapdo"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "DOCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 2,
+                                        "allowedTargetMask": 2
+                                    }
+                                },
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "globaldo"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "globaldo"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "OnlineCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 2,
+                                        "allowedTargetMask": 2
+                                    }
+                                },
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "coredo"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "coredo"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "DOCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 2,
+                                        "allowedTargetMask": 2
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "parentClassName": {
+                        "value": "RootDO"
+                    },
+                    "classID": 0,
+                    "namespace": {
+                        "elements": [
+                            {
+                                "body": {
+                                    "methodDeclaration": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "AdjustTime"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "AdjustTime"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": ""
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "parameters": {
+                                            "elements": [
+                                                {
+                                                    "body": {
+                                                        "variable": {
+                                                            "nameSpaceItem": {
+                                                                "parseTreeItem1": {
+                                                                    "name": {
+                                                                        "value": "iTimeDifference"
+                                                                    }
+                                                                },
+                                                                "parseTreeItem2": {
+                                                                    "name": {
+                                                                        "value": "iTimeDifference"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "declarationUse": {
+                                                                "type": 17,
+                                                                "name": {
+                                                                    "value": "int64"
+                                                                }
+                                                            },
+                                                            "arraySize": 1
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "int64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1,
+                                                        "type": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "parameters": {
+                                        "elements": [
+                                            {
+                                                "body": {
+                                                    "variable": {
+                                                        "nameSpaceItem": {
+                                                            "parseTreeItem1": {
+                                                                "name": {
+                                                                    "value": "iTimeDifference"
+                                                                }
+                                                            },
+                                                            "parseTreeItem2": {
+                                                                "name": {
+                                                                    "value": "iTimeDifference"
+                                                                }
+                                                            }
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "int64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1
+                                                    },
+                                                    "declarationUse": {
+                                                        "type": 17,
+                                                        "name": {
+                                                            "value": "int64"
+                                                        }
+                                                    },
+                                                    "arraySize": 1,
+                                                    "type": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "body": {
+                                    "methodDeclaration": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "SyncRequest"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "SyncRequest"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": ""
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "parameters": {
+                                            "elements": [
+                                                {
+                                                    "body": {
+                                                        "variable": {
+                                                            "nameSpaceItem": {
+                                                                "parseTreeItem1": {
+                                                                    "name": {
+                                                                        "value": "uiTimeStamp"
+                                                                    }
+                                                                },
+                                                                "parseTreeItem2": {
+                                                                    "name": {
+                                                                        "value": "uiTimeStamp"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "declarationUse": {
+                                                                "type": 17,
+                                                                "name": {
+                                                                    "value": "uint64"
+                                                                }
+                                                            },
+                                                            "arraySize": 1
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "uint64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1,
+                                                        "type": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "parameters": {
+                                        "elements": [
+                                            {
+                                                "body": {
+                                                    "variable": {
+                                                        "nameSpaceItem": {
+                                                            "parseTreeItem1": {
+                                                                "name": {
+                                                                    "value": "uiTimeStamp"
+                                                                }
+                                                            },
+                                                            "parseTreeItem2": {
+                                                                "name": {
+                                                                    "value": "uiTimeStamp"
+                                                                }
+                                                            }
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "uint64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1
+                                                    },
+                                                    "declarationUse": {
+                                                        "type": 17,
+                                                        "name": {
+                                                            "value": "uint64"
+                                                        }
+                                                    },
+                                                    "arraySize": 1,
+                                                    "type": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "body": {
+                                    "methodDeclaration": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "SyncResponse"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "SyncResponse"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": ""
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "parameters": {
+                                            "elements": [
+                                                {
+                                                    "body": {
+                                                        "variable": {
+                                                            "nameSpaceItem": {
+                                                                "parseTreeItem1": {
+                                                                    "name": {
+                                                                        "value": "uiTimeStamp"
+                                                                    }
+                                                                },
+                                                                "parseTreeItem2": {
+                                                                    "name": {
+                                                                        "value": "uiTimeStamp"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "declarationUse": {
+                                                                "type": 17,
+                                                                "name": {
+                                                                    "value": "uint64"
+                                                                }
+                                                            },
+                                                            "arraySize": 1
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "uint64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1,
+                                                        "type": 1
+                                                    }
+                                                },
+                                                {
+                                                    "body": {
+                                                        "variable": {
+                                                            "nameSpaceItem": {
+                                                                "parseTreeItem1": {
+                                                                    "name": {
+                                                                        "value": "uiCurrentTime"
+                                                                    }
+                                                                },
+                                                                "parseTreeItem2": {
+                                                                    "name": {
+                                                                        "value": "uiCurrentTime"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "declarationUse": {
+                                                                "type": 17,
+                                                                "name": {
+                                                                    "value": "uint64"
+                                                                }
+                                                            },
+                                                            "arraySize": 1
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "uint64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1,
+                                                        "type": 1
+                                                    }
+                                                },
+                                                {
+                                                    "body": {
+                                                        "variable": {
+                                                            "nameSpaceItem": {
+                                                                "parseTreeItem1": {
+                                                                    "name": {
+                                                                        "value": "iServerDispatchTime"
+                                                                    }
+                                                                },
+                                                                "parseTreeItem2": {
+                                                                    "name": {
+                                                                        "value": "iServerDispatchTime"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "declarationUse": {
+                                                                "type": 17,
+                                                                "name": {
+                                                                    "value": "int32"
+                                                                }
+                                                            },
+                                                            "arraySize": 1
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "int32"
+                                                            }
+                                                        },
+                                                        "arraySize": 1,
+                                                        "type": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "parameters": {
+                                        "elements": [
+                                            {
+                                                "body": {
+                                                    "variable": {
+                                                        "nameSpaceItem": {
+                                                            "parseTreeItem1": {
+                                                                "name": {
+                                                                    "value": "uiTimeStamp"
+                                                                }
+                                                            },
+                                                            "parseTreeItem2": {
+                                                                "name": {
+                                                                    "value": "uiTimeStamp"
+                                                                }
+                                                            }
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "uint64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1
+                                                    },
+                                                    "declarationUse": {
+                                                        "type": 17,
+                                                        "name": {
+                                                            "value": "uint64"
+                                                        }
+                                                    },
+                                                    "arraySize": 1,
+                                                    "type": 1
+                                                }
+                                            },
+                                            {
+                                                "body": {
+                                                    "variable": {
+                                                        "nameSpaceItem": {
+                                                            "parseTreeItem1": {
+                                                                "name": {
+                                                                    "value": "uiCurrentTime"
+                                                                }
+                                                            },
+                                                            "parseTreeItem2": {
+                                                                "name": {
+                                                                    "value": "uiCurrentTime"
+                                                                }
+                                                            }
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "uint64"
+                                                            }
+                                                        },
+                                                        "arraySize": 1
+                                                    },
+                                                    "declarationUse": {
+                                                        "type": 17,
+                                                        "name": {
+                                                            "value": "uint64"
+                                                        }
+                                                    },
+                                                    "arraySize": 1,
+                                                    "type": 1
+                                                }
+                                            },
+                                            {
+                                                "body": {
+                                                    "variable": {
+                                                        "nameSpaceItem": {
+                                                            "parseTreeItem1": {
+                                                                "name": {
+                                                                    "value": "iServerDispatchTime"
+                                                                }
+                                                            },
+                                                            "parseTreeItem2": {
+                                                                "name": {
+                                                                    "value": "iServerDispatchTime"
+                                                                }
+                                                            }
+                                                        },
+                                                        "declarationUse": {
+                                                            "type": 17,
+                                                            "name": {
+                                                                "value": "int32"
+                                                            }
+                                                        },
+                                                        "arraySize": 1
+                                                    },
+                                                    "declarationUse": {
+                                                        "type": 17,
+                                                        "name": {
+                                                            "value": "int32"
+                                                        }
+                                                    },
+                                                    "arraySize": 1,
+                                                    "type": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

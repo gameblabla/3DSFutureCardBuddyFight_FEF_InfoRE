@@ -1,0 +1,201 @@
+{
+    "major": 3,
+    "minor": 6,
+    "micro": 0,
+    "build": 1001,
+    "rootNamespace": {
+        "elements": [
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "HostMigrationExt"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "HostMigrationExt"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "HostMigrationExt"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "unitName": {
+                        "value": "HostMigrationExt"
+                    },
+                    "unitDirectory": {
+                        "value": ""
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qlist<stationurl>"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qlist<stationurl>"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "baseTypeName": {
+                        "value": "qlist"
+                    },
+                    "templateArgumentsLength": 1,
+                    "templateArguments": [
+                        {
+                            "value": "stationurl"
+                        }
+                    ]
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qvector<uint32>"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qvector<uint32>"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "baseTypeName": {
+                        "value": "qvector"
+                    },
+                    "templateArgumentsLength": 1,
+                    "templateArguments": [
+                        {
+                            "value": "uint32"
+                        }
+                    ]
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "HostMigrationNotifier"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "HostMigrationNotifier"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "HostMigrationExt"
+                        },
+                        "properties": {
+                            "elements": [
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "globaldo"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "globaldo"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "OnlineCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 2,
+                                        "allowedTargetMask": 2
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "parentClassName": {
+                        "value": "RootDO"
+                    },
+                    "classID": 0,
+                    "namespace": {
+                        "elements": [
+                            {
+                                "body": {
+                                    "methodDeclaration": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "UpdateGatheringHost"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "UpdateGatheringHost"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": ""
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "parameters": {
+                                            "elements": []
+                                        }
+                                    },
+                                    "parameters": {
+                                        "elements": []
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

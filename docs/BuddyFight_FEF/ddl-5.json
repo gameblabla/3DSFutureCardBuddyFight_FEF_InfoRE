@@ -1,0 +1,346 @@
+{
+    "major": 3,
+    "minor": 6,
+    "micro": 0,
+    "build": 1001,
+    "rootNamespace": {
+        "elements": [
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "DupSpaceExt"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "DupSpaceExt"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "DupSpaceExt"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    },
+                    "unitName": {
+                        "value": "DupSpaceExt"
+                    },
+                    "unitDirectory": {
+                        "value": ""
+                    }
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qlist<stationurl>"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qlist<stationurl>"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "baseTypeName": {
+                        "value": "qlist"
+                    },
+                    "templateArgumentsLength": 1,
+                    "templateArguments": [
+                        {
+                            "value": "stationurl"
+                        }
+                    ]
+                }
+            },
+            {
+                "body": {
+                    "typeDeclaration": {
+                        "declaration": {
+                            "nameSpaceItem": {
+                                "parseTreeItem1": {
+                                    "name": {
+                                        "value": "qvector<uint32>"
+                                    }
+                                },
+                                "parseTreeItem2": {
+                                    "name": {
+                                        "value": "qvector<uint32>"
+                                    }
+                                }
+                            },
+                            "unitName": {
+                                "value": ""
+                            },
+                            "properties": {
+                                "elements": []
+                            }
+                        }
+                    },
+                    "baseTypeName": {
+                        "value": "qvector"
+                    },
+                    "templateArgumentsLength": 1,
+                    "templateArguments": [
+                        {
+                            "value": "uint32"
+                        }
+                    ]
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "SessionSpace"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "SessionSpace"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "DupSpaceExt"
+                        },
+                        "properties": {
+                            "elements": []
+                        }
+                    }
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "DefaultCellParameter"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "DefaultCellParameter"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "DupSpaceExt"
+                        },
+                        "properties": {
+                            "elements": [
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "concrete"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "concrete"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "OnlineCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 1,
+                                        "allowedTargetMask": 5
+                                    }
+                                },
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "basic_update_protocol"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "basic_update_protocol"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "DOCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 512,
+                                        "allowedTargetMask": 1
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "variables": {
+                        "elements": [
+                            {
+                                "body": {
+                                    "nameSpaceItem": {
+                                        "parseTreeItem1": {
+                                            "name": {
+                                                "value": "m_idDupSpace"
+                                            }
+                                        },
+                                        "parseTreeItem2": {
+                                            "name": {
+                                                "value": "m_idDupSpace"
+                                            }
+                                        }
+                                    },
+                                    "declarationUse": {
+                                        "type": 17,
+                                        "name": {
+                                            "value": "uint32"
+                                        }
+                                    },
+                                    "arraySize": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "body": {
+                    "declaration": {
+                        "nameSpaceItem": {
+                            "parseTreeItem1": {
+                                "name": {
+                                    "value": "DefaultCell"
+                                }
+                            },
+                            "parseTreeItem2": {
+                                "name": {
+                                    "value": "DefaultCell"
+                                }
+                            }
+                        },
+                        "unitName": {
+                            "value": "DupSpaceExt"
+                        },
+                        "properties": {
+                            "elements": [
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "globaldo"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "globaldo"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "OnlineCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 2,
+                                        "allowedTargetMask": 2
+                                    }
+                                },
+                                {
+                                    "body": {
+                                        "declaration": {
+                                            "nameSpaceItem": {
+                                                "parseTreeItem1": {
+                                                    "name": {
+                                                        "value": "coredo"
+                                                    }
+                                                },
+                                                "parseTreeItem2": {
+                                                    "name": {
+                                                        "value": "coredo"
+                                                    }
+                                                }
+                                            },
+                                            "unitName": {
+                                                "value": "DOCore"
+                                            },
+                                            "properties": {
+                                                "elements": []
+                                            }
+                                        },
+                                        "categoryMask": 2,
+                                        "allowedTargetMask": 2
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "parentClassName": {
+                        "value": "RootDO"
+                    },
+                    "classID": 0,
+                    "namespace": {
+                        "elements": [
+                            {
+                                "body": {
+                                    "nameSpaceItem": {
+                                        "parseTreeItem1": {
+                                            "name": {
+                                                "value": "m_dsParam"
+                                            }
+                                        },
+                                        "parseTreeItem2": {
+                                            "name": {
+                                                "value": "m_dsParam"
+                                            }
+                                        }
+                                    },
+                                    "declarationUse": {
+                                        "type": 4,
+                                        "name": {
+                                            "value": "DefaultCellParameter"
+                                        }
+                                    },
+                                    "arraySize": 0
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

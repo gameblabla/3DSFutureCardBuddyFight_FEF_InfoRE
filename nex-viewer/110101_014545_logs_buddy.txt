@@ -1,0 +1,1778 @@
+Unsupported link layer type 147
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer e1 00 00 00 8a 06 00 00 00 02 00 00 00 0b 00 31 38 37 39 30 36 30 30 38 39 00 13 00 41 75 74 68 65 6e 74 69 63 61 74 69 6f 6e 49 6e 66 6f 00 b2 00 00 ... 179 more bytes>,
+    size: 225,
+    protocolId: 10,
+    mode: 0,
+    callId: 6,
+    methodId: 2,
+    body: <Buffer 0b 00 31 38 37 39 30 36 30 30 38 39 00 13 00 41 75 74 68 65 6e 74 69 63 61 74 69 6f 6e 49 6e 66 6f 00 b2 00 00 00 ae 00 00 00 00 00 00 00 00 00 a4 00 ... 166 more bytes>
+  },
+  rmcData: {
+    body: LoginExRequest {
+      strUserName: '1879060089',
+      oExtraData: [AnyDataHolder]
+    },
+    protocolName: 'Authentication',
+    methodName: 'LoginEx'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 40 01 00 00 0a 01 06 00 00 00 02 80 00 00 01 00 01 00 79 2e 00 70 8c 00 00 00 f5 5c 75 df 80 1f ba 5c ef b5 ca 72 0f 95 fe 60 62 ca 67 b4 1c b0 7b 90 ... 274 more bytes>,
+    size: 320,
+    protocolId: 10,
+    mode: 1,
+    responseStatus: 1,
+    callId: 6,
+    methodId: 2,
+    body: <Buffer 01 00 01 00 79 2e 00 70 8c 00 00 00 f5 5c 75 df 80 1f ba 5c ef b5 ca 72 0f 95 fe 60 62 ca 67 b4 1c b0 7b 90 33 4b 5d b4 2e f8 5e 65 d3 2b 52 8b 37 21 ... 260 more bytes>
+  },
+  rmcData: {
+    body: LoginExResponse {
+      retval: [Result],
+      pidPrincipal: 1879060089,
+      pbufResponse: <Buffer f5 5c 75 df 80 1f ba 5c ef b5 ca 72 0f 95 fe 60 62 ca 67 b4 1c b0 7b 90 33 4b 5d b4 2e f8 5e 65 d3 2b 52 8b 37 21 a2 5f aa 40 b9 97 36 75 12 c5 6c 22 ... 90 more bytes>,
+      pConnectionData: [RVConnectionData],
+      strReturnMsg: 'branch:origin/release/ngs/3.7.x.2001 build:3_7_19_2001_0'
+    },
+    protocolName: 'Authentication',
+    methodName: 'LoginEx'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 11 00 00 00 8a 0b 00 00 00 03 00 00 00 79 2e 00 70 02 00 00 00>,
+    size: 17,
+    protocolId: 10,
+    mode: 0,
+    callId: 11,
+    methodId: 3,
+    body: <Buffer 79 2e 00 70 02 00 00 00>
+  },
+  rmcData: {
+    body: RequestTicketRequest { idSource: 1879060089, idTarget: 2 },
+    protocolName: 'Authentication',
+    methodName: 'RequestTicket'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 9e 00 00 00 0a 01 0b 00 00 00 03 80 00 00 01 00 01 00 8c 00 00 00 bf fc 74 62 9c 17 34 e0 54 2c 0d bb ce 3d a7 af 09 49 19 e6 20 06 7f 3b 2b ff 91 8e ... 112 more bytes>,
+    size: 158,
+    protocolId: 10,
+    mode: 1,
+    responseStatus: 1,
+    callId: 11,
+    methodId: 3,
+    body: <Buffer 01 00 01 00 8c 00 00 00 bf fc 74 62 9c 17 34 e0 54 2c 0d bb ce 3d a7 af 09 49 19 e6 20 06 7f 3b 2b ff 91 8e 2d ae f7 87 d0 2b 52 8b 37 21 a2 5f aa 40 ... 98 more bytes>
+  },
+  rmcData: {
+    body: RequestTicketResponse {
+      retval: [Result],
+      bufResponse: <Buffer bf fc 74 62 9c 17 34 e0 54 2c 0d bb ce 3d a7 af 09 49 19 e6 20 06 7f 3b 2b ff 91 8e 2d ae f7 87 d0 2b 52 8b 37 21 a2 5f aa 40 b9 97 b4 ca a6 a7 5b 0f ... 90 more bytes>
+    },
+    protocolName: 'Authentication',
+    methodName: 'RequestTicket'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 5d 00 00 00 8b 0e 00 00 00 01 00 00 00 01 00 00 00 4e 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 30 2e 34 32 3b 70 6f 72 ... 47 more bytes>,
+    size: 93,
+    protocolId: 11,
+    mode: 0,
+    callId: 14,
+    methodId: 1,
+    body: <Buffer 01 00 00 00 4e 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 30 2e 34 32 3b 70 6f 72 74 3d 35 35 34 37 34 3b 50 6c 3d 30 3b ... 34 more bytes>
+  },
+  rmcData: {
+    body: RegisterRequest { vecMyURLs: [Array] },
+    protocolName: 'Secure Connection',
+    methodName: 'Register'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 65 00 00 00 0b 01 0e 00 00 00 01 80 00 00 01 00 01 00 90 57 7f 0f 51 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 38 32 2e 36 36 2e 32 34 36 2e 31 ... 55 more bytes>,
+    size: 101,
+    protocolId: 11,
+    mode: 1,
+    responseStatus: 1,
+    callId: 14,
+    methodId: 1,
+    body: <Buffer 01 00 01 00 90 57 7f 0f 51 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 38 32 2e 36 36 2e 32 34 36 2e 31 33 37 3b 70 6f 72 74 3d 35 35 34 37 34 3b ... 41 more bytes>
+  },
+  rmcData: {
+    body: RegisterResponse {
+      retval: 65537,
+      pidConnectionID: 260003728,
+      urlPublic: [StationURL]
+    },
+    protocolName: 'Secure Connection',
+    methodName: 'Register'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 45 01 00 00 ed 10 00 00 00 0f 00 00 00 02 00 00 00 02 41 00 00 00 06 00 00 00 06 00 32 30 2c 32 35 00 02 00 30 00 01 00 00 01 00 00 01 00 00 01 00 00 ... 279 more bytes>,
+    size: 325,
+    protocolId: 109,
+    mode: 0,
+    callId: 16,
+    methodId: 15,
+    body: <Buffer 02 00 00 00 02 41 00 00 00 06 00 00 00 06 00 32 30 2c 32 35 00 02 00 30 00 01 00 00 01 00 00 01 00 00 01 00 00 04 00 32 35 35 00 02 00 31 00 02 00 32 ... 266 more bytes>
+  },
+  rmcData: {
+    body: AutoMatchmakeWithSearchCriteria_PostponeRequest {
+      lstSearchCriteria: [Array],
+      anyGathering: [AnyDataHolder],
+      strMessage: 'AutoMatchmake message'
+    },
+    protocolName: 'Matchmake extension',
+    methodName: 'AutoMatchmakeWithSearchCriteria_Postpone'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer d4 00 00 00 6d 01 10 00 00 00 0f 80 00 00 11 00 4d 61 74 63 68 6d 61 6b 65 53 65 73 73 69 6f 6e 00 b3 00 00 00 af 00 00 00 00 23 00 00 00 bd 51 00 00 ... 166 more bytes>,
+    size: 212,
+    protocolId: 109,
+    mode: 1,
+    responseStatus: 1,
+    callId: 16,
+    methodId: 15,
+    body: <Buffer 11 00 4d 61 74 63 68 6d 61 6b 65 53 65 73 73 69 6f 6e 00 b3 00 00 00 af 00 00 00 00 23 00 00 00 bd 51 00 00 b3 57 dc 6f b3 57 dc 6f 01 00 02 00 08 00 ... 152 more bytes>
+  },
+  rmcData: {
+    body: AutoMatchmakeWithSearchCriteria_PostponeResponse {
+      joinedGathering: [AnyDataHolder]
+    },
+    protocolName: 'Matchmake extension',
+    methodName: 'AutoMatchmakeWithSearchCriteria_Postpone'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 15 00 00 00 83 11 00 00 00 05 00 00 00 01 00 00 00 02 00 00 00 4a 00 00 00>,
+    size: 21,
+    protocolId: 3,
+    mode: 0,
+    callId: 17,
+    methodId: 5,
+    body: <Buffer 01 00 00 00 02 00 00 00 4a 00 00 00>
+  },
+  rmcData: {
+    body: ReportNATPropertiesRequest {
+      natmapping: 1,
+      natfiltering: 2,
+      rtt: 74
+    },
+    protocolName: 'NAT Traversal',
+    methodName: 'ReportNATProperties'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer c9 00 00 00 8b 12 00 00 00 07 00 00 00 5e 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 30 2e 34 32 3b 70 6f 72 74 3d 35 35 ... 155 more bytes>,
+    size: 201,
+    protocolId: 11,
+    mode: 0,
+    callId: 18,
+    methodId: 7,
+    body: <Buffer 5e 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 30 2e 34 32 3b 70 6f 72 74 3d 35 35 34 37 34 3b 50 6c 3d 30 3b 52 56 43 49 ... 142 more bytes>
+  },
+  rmcData: {
+    body: ReplaceURLRequest { target: [StationURL], url: [StationURL] },
+    protocolName: 'Secure Connection',
+    methodName: 'ReplaceURL'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0d 00 00 00 95 13 00 00 00 29 00 00 00 bd 51 00 00>,
+    size: 13,
+    protocolId: 21,
+    mode: 0,
+    callId: 19,
+    methodId: 41,
+    body: <Buffer bd 51 00 00>
+  },
+  rmcData: {
+    body: GetSessionURLsRequest { gid: 20925 },
+    protocolName: 'Match making',
+    methodName: 'GetSessionURLs'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0a 00 00 00 03 01 11 00 00 00 05 80 00 00>,
+    size: 10,
+    protocolId: 3,
+    mode: 1,
+    responseStatus: 1,
+    callId: 17,
+    methodId: 5,
+    body: <Buffer >
+  },
+  rmcData: {
+    body: ReportNATPropertiesResponse {},
+    protocolName: 'NAT Traversal',
+    methodName: 'ReportNATProperties'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0a 00 00 00 0b 01 12 00 00 00 07 80 00 00>,
+    size: 10,
+    protocolId: 11,
+    mode: 1,
+    responseStatus: 1,
+    callId: 18,
+    methodId: 7,
+    body: <Buffer >
+  },
+  rmcData: {
+    body: ReplaceURLResponse {},
+    protocolName: 'Secure Connection',
+    methodName: 'ReplaceURL'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer f0 00 00 00 15 01 13 00 00 00 29 80 00 00 02 00 00 00 6d 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 33 2e 35 3b 70 6f 72 ... 194 more bytes>,
+    size: 240,
+    protocolId: 21,
+    mode: 1,
+    responseStatus: 1,
+    callId: 19,
+    methodId: 41,
+    body: <Buffer 02 00 00 00 6d 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 33 2e 35 3b 70 6f 72 74 3d 35 36 39 30 31 3b 50 49 44 3d 31 38 ... 180 more bytes>
+  },
+  rmcData: {
+    body: GetSessionURLsResponse { lstURLs: [Array] },
+    protocolName: 'Match making',
+    methodName: 'GetSessionURLs'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0e 01 00 00 83 14 00 00 00 03 00 00 00 01 00 00 00 7f 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 32 36 2e 34 32 2e 36 37 2e 31 34 30 3b 70 6f ... 224 more bytes>,
+    size: 270,
+    protocolId: 3,
+    mode: 0,
+    callId: 20,
+    methodId: 3,
+    body: <Buffer 01 00 00 00 7f 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 32 36 2e 34 32 2e 36 37 2e 31 34 30 3b 70 6f 72 74 3d 35 30 36 33 34 3b 43 49 44 3d ... 211 more bytes>
+  },
+  rmcData: {
+    body: RequestProbeInitiationExtRequest {
+      urlTargetList: [Array],
+      urlStationToProbe: [StationURL]
+    },
+    protocolName: 'NAT Traversal',
+    methodName: 'RequestProbeInitiationExt'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0a 00 00 00 03 01 14 00 00 00 03 80 00 00>,
+    size: 10,
+    protocolId: 3,
+    mode: 1,
+    responseStatus: 1,
+    callId: 20,
+    methodId: 3,
+    body: <Buffer >
+  },
+  rmcData: {
+    body: RequestProbeInitiationExtResponse {},
+    protocolName: 'NAT Traversal',
+    methodName: 'RequestProbeInitiationExt'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 8a 00 00 00 83 65 51 d2 00 02 00 00 00 7f 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 32 36 2e 34 32 2e 36 37 2e 31 34 30 3b 70 6f 72 74 3d 35 ... 92 more bytes>,
+    size: 138,
+    protocolId: 3,
+    mode: 0,
+    callId: 13783397,
+    methodId: 2,
+    body: <Buffer 7f 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 32 36 2e 34 32 2e 36 37 2e 31 34 30 3b 70 6f 72 74 3d 35 36 39 30 31 3b 43 49 44 3d 30 3b 50 49 ... 79 more bytes>
+  },
+  rmcData: {
+    body: InitiateProbeRequest { urlStationToProbe: [StationURL] },
+    protocolName: 'NAT Traversal',
+    methodName: 'InitiateProbe'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 12 00 00 00 83 15 00 00 00 04 00 00 00 4a c5 70 4f 01 27 01 00 00>,
+    size: 18,
+    protocolId: 3,
+    mode: 0,
+    callId: 21,
+    methodId: 4,
+    body: <Buffer 4a c5 70 4f 01 27 01 00 00>
+  },
+  rmcData: {
+    body: ReportNATTraversalResultRequest {
+      cid: 1332790602,
+      result: true,
+      rtt: 295
+    },
+    protocolName: 'NAT Traversal',
+    methodName: 'ReportNATTraversalResult'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0a 00 00 00 03 01 15 00 00 00 04 80 00 00>,
+    size: 10,
+    protocolId: 3,
+    mode: 1,
+    responseStatus: 1,
+    callId: 21,
+    methodId: 4,
+    body: <Buffer >
+  },
+  rmcData: {
+    body: ReportNATTraversalResultResponse {},
+    protocolName: 'NAT Traversal',
+    methodName: 'ReportNATTraversalResult'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer bf 00 00 00 8b 16 00 00 00 08 00 00 00 00 00 00 00 b0 00 05 00 fc ff 00 91 ff ff ff ff ff ff ff ff ff ff 0e a7 75 2e 4f 12 f8 7b 48 fb 46 92 cd a9 bf ... 145 more bytes>,
+    size: 191,
+    protocolId: 11,
+    mode: 0,
+    callId: 22,
+    methodId: 8,
+    body: <Buffer 00 00 00 00 b0 00 05 00 fc ff 00 91 ff ff ff ff ff ff ff ff ff ff 0e a7 75 2e 4f 12 f8 7b 48 fb 46 92 cd a9 bf 8b 80 c0 9e 61 be b2 f1 3c 79 d6 e0 95 ... 132 more bytes>
+  },
+  rmcData: {
+    body: SendReportRequest {
+      reportId: 0,
+      reportData: <Buffer 05 00 fc ff 00 91 ff ff ff ff ff ff ff ff ff ff 0e a7 75 2e 4f 12 f8 7b 48 fb 46 92 cd a9 bf 8b 80 c0 9e 61 be b2 f1 3c 79 d6 e0 95 ae e2 bf 91 0e e1 ... 126 more bytes>
+    },
+    protocolName: 'Secure Connection',
+    methodName: 'SendReport'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0a 00 00 00 0b 01 16 00 00 00 08 80 00 00>,
+    size: 10,
+    protocolId: 11,
+    mode: 1,
+    responseStatus: 1,
+    callId: 22,
+    methodId: 8,
+    body: <Buffer >
+  },
+  rmcData: {
+    body: SendReportResponse {},
+    protocolName: 'Secure Connection',
+    methodName: 'SendReport'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 6f 01 00 00 8b 17 00 00 00 08 00 00 00 01 00 00 00 60 01 05 01 fc ff 01 4e ff ff ff ff ff ff ff ff ff ff b9 f1 1a 3d c3 15 54 d8 60 fb 04 8c 59 5c ba ... 321 more bytes>,
+    size: 367,
+    protocolId: 11,
+    mode: 0,
+    callId: 23,
+    methodId: 8,
+    body: <Buffer 01 00 00 00 60 01 05 01 fc ff 01 4e ff ff ff ff ff ff ff ff ff ff b9 f1 1a 3d c3 15 54 d8 60 fb 04 8c 59 5c ba ce a4 31 73 ff 42 d8 04 27 29 54 ac 7e ... 308 more bytes>
+  },
+  rmcData: {
+    body: SendReportRequest {
+      reportId: 1,
+      reportData: <Buffer 05 01 fc ff 01 4e ff ff ff ff ff ff ff ff ff ff b9 f1 1a 3d c3 15 54 d8 60 fb 04 8c 59 5c ba ce a4 31 73 ff 42 d8 04 27 29 54 ac 7e 72 cb ba f6 d3 23 ... 302 more bytes>
+    },
+    protocolName: 'Secure Connection',
+    methodName: 'SendReport'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0a 00 00 00 0b 01 17 00 00 00 08 80 00 00>,
+    size: 10,
+    protocolId: 11,
+    mode: 1,
+    responseStatus: 1,
+    callId: 23,
+    methodId: 8,
+    body: <Buffer >
+  },
+  rmcData: {
+    body: SendReportResponse {},
+    protocolName: 'Secure Connection',
+    methodName: 'SendReport'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'face0010',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Future Card BuddyFight FEF',
+      access_key: 'face0010',
+      nex_version: '3.7.1',
+      nex_ranking_version: '3.7.1',
+      nex_datastore_version: '3.7.1',
+      nex_match_making_version: '3.7.1',
+      nex_messaging_version: '3.7.1',
+      nex_utility_version: '3.7.1',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 25 00 00 00 8e f8 52 d2 00 01 00 00 00 00 17 00 00 00 b3 57 dc 6f c8 a9 01 00 bd 51 00 00 00 00 00 00 01 00 00 00 00 00 00>,
+    size: 37,
+    protocolId: 14,
+    mode: 0,
+    callId: 13783800,
+    methodId: 1,
+    body: <Buffer 00 17 00 00 00 b3 57 dc 6f c8 a9 01 00 bd 51 00 00 00 00 00 00 01 00 00 00 00 00 00>
+  },
+  rmcData: {
+    body: ProcessNotificationEventRequest { oEvent: [NotificationEvent] },
+    protocolName: 'Notification events',
+    methodName: 'ProcessNotificationEvent'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
