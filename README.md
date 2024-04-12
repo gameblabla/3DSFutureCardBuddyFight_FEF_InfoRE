@@ -64,6 +64,7 @@ I also shot a (poorly edited) video with it for one of the dumps (only includes 
 
 nex-documentation-generator gave me the following output :
 
+```
 [ℹ] Found NEX protocol: HealthProtocol
 [✔] Writing protocol documentation to ./docs/BuddyFight_FEF/HealthProtocol.md
 
@@ -106,3 +107,4 @@ nex-documentation-generator gave me the following output :
 
 [⚠] Found DDL tree with no protocol declaration. Writing to ./docs/BuddyFight_FEF/ddl-11.json
 
+```
