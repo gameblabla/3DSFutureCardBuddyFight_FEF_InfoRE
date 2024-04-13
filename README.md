@@ -4,9 +4,9 @@ Network information about Future Card BuddyFight FEF (Future Card Buddyfight Yuu
 
 # new-viewer
 
-I added support for it in nex-viewer 
+I added support for it in my nex-viewer foirk
 
-https://github.com/gameblabla/nex-viewer/commit/2521cc11dd89011fe6824f8d01da1498dbc9e8a7
+https://github.com/gameblabla/nex-viewer
 
 The output log from nex-viewer on 110101_021431 - Buddyfight fight, buddyfight_match_online_match_win_complete_youtu.be 2FdIFeYXXNk can be found in the nex-viewer folder of this repo.
 
